@@ -8,8 +8,7 @@ export const initSlider = () => {
                 // },
                 speed: 3000,
                 effect: "fade",
-                // direction: 'vertical',
-                
+                direction: 'horizontal',  
                 spaceBetween: 15,
                 slidesPerView: 1,
                 equalHeight: true,
