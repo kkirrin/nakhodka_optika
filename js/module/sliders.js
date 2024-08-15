@@ -3,9 +3,9 @@ export const initSlider = () => {
         let swiper;
         if (item) {
             swiper = new Swiper(item, {
-                // autoplay: {
-                //     delay: 3000
-                // },
+                autoplay: {
+                    delay: 3000
+                },
                 speed: 3000,
                 effect: "fade",
                 direction: 'horizontal',  

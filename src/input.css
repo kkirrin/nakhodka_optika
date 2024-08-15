@@ -65,7 +65,14 @@
 
 /* Директивы классов */
 
-
+.swiper-pagination-bullet {
+  background: rgba(255, 255, 255, 0.5);
+  height: 12px;
+  width: 12px;
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: rgb(255, 255, 255);
+}
 
 
 
